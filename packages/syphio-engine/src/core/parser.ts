@@ -11,7 +11,7 @@ export function parseLiquid(content: string, filePath: string): AstNode {
   const lines = content.split("\n");
 
   lines.forEach((line, i) => {
-    if (line.includes("{% for")) {
+    if (line.indexOf("{% for") !== -1) {
       root.children?.push({
         id: `for-${i}`,
         type: "ForNode",
@@ -21,7 +21,7 @@ export function parseLiquid(content: string, filePath: string): AstNode {
       });
     }
 
-    if (line.includes("{{")) {
+    if (line.indexOf("{{") !== -1) {
       root.children?.push({
         id: `output-${i}`,
         type: "OutputNode",
