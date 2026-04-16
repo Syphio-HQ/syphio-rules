@@ -1,0 +1,11 @@
+{
+  "name": "@syphio/syphio-engine",
+  "version": "1.0.0-alpha",
+  "dependencies": {
+    "@syphio/shared-types": "1.0.0-alpha"
+  },
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  }
+}
