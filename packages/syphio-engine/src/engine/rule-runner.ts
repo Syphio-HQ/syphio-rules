@@ -1,5 +1,5 @@
-import type { Finding } from "../../../shared-types/src/findings";
-import type { Rule } from "../../../shared-types/src/rules";
+
+import { Finding, Rule } from "../../../shared-types/src";
 import { createContext } from "./context";
 
 export function runRules(
