@@ -1,0 +1,1 @@
+export type Severity = "info" | "low" | "medium" | "high" | "critical";
