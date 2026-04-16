@@ -42,3 +42,64 @@ export const rule: Rule = {
   },
 };
 ```
+
+---
+
+## Best practices
+
+Focus on impact
+
+Rules must reflect real-world consequences:
+
+- performance degradation
+- security risk
+- maintainability issues
+
+---
+
+## Avoid stylistic rules
+
+Syphio is not a formatter.
+
+Avoid:
+
+- naming conventions
+- formatting rules
+- purely stylistic concerns
+
+---
+
+## Provide remediation
+
+Each rule must help developers fix the issue.
+
+---
+
+## Minimize false positives
+
+Rules should aim to be:
+
+- precise
+- deterministic
+- reliable
+
+---
+
+## Performance considerations
+
+Rules must:
+
+- avoid expensive traversal
+- reuse engine utilities
+- operate efficiently at scale
+
+---
+
+## Conclusion
+
+A good rule is:
+
+- useful
+- accurate
+- explainable
+- actionable
