@@ -1,3 +1,5 @@
+# Public Engine Contract
+
 ## Overview
 
 This repository defines the **public contract** of the Syphio engine.
